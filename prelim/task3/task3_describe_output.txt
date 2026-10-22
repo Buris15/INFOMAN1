@@ -1,0 +1,47 @@
+INFOMAN1 PRELIM — Task 3 DESCRIBE output reference
+Database: toolshare_prelim
+
+Command: DESCRIBE storage_location;
+Field	Type	Null	Key	Default	Extra
+location_code	varchar(10)	NO	PRI	NULL	
+description	varchar(100)	NO		NULL	
+
+Command: DESCRIBE member;
+Field	Type	Null	Key	Default	Extra
+member_id	int	NO	PRI	NULL	
+member_name	varchar(100)	NO		NULL	
+phone	varchar(20)	YES		NULL	
+join_date	date	NO		NULL	
+
+Command: DESCRIBE tool;
+Field	Type	Null	Key	Default	Extra
+tool_id	int	NO	PRI	NULL	
+tool_name	varchar(100)	NO		NULL	
+category	varchar(50)	NO		NULL	
+purchase_date	date	NO		NULL	
+location_code	varchar(10)	NO	MUL	NULL	
+
+Command: DESCRIBE certification;
+Field	Type	Null	Key	Default	Extra
+cert_id	int	NO	PRI	NULL	
+cert_name	varchar(100)	NO		NULL	
+
+Command: DESCRIBE borrowing;
+Field	Type	Null	Key	Default	Extra
+borrow_id	int	NO	PRI	NULL	
+member_id	int	NO	MUL	NULL	
+tool_id	int	NO	MUL	NULL	
+borrow_date	date	NO		NULL	
+return_date	date	YES		NULL	
+
+Command: DESCRIBE tool_requirement;
+Field	Type	Null	Key	Default	Extra
+tool_id	int	NO	PRI	NULL	
+cert_id	int	NO	PRI	NULL	
+
+Command: DESCRIBE member_certification;
+Field	Type	Null	Key	Default	Extra
+member_id	int	NO	PRI	NULL	
+cert_id	int	NO	PRI	NULL	
+completion_date	date	NO		NULL	
+
