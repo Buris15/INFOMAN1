@@ -1,0 +1,27 @@
+TASK 3 — GROUPING RESULTS
+
+3.1 Department summary
+department | headcount | average_salary | distinct_job_titles
+Engineering | 125 | 75,160.00 | 3
+Finance | 69 | 79,513.04 | 3
+HR | 50 | 62,610.00 | 3
+Sales | 144 | 71,799.65 | 3
+Support | 112 | 44,028.57 | 3
+
+3.2 Headcount by department and job title
+department | job_title | headcount
+Engineering | DevOps Engineer | 42
+Engineering | QA Analyst | 39
+Engineering | Software Engineer | 44
+Finance | Accountant | 21
+Finance | Finance Manager | 24
+Finance | Financial Analyst | 24
+HR | HR Manager | 18
+HR | HR Specialist | 20
+HR | Recruiter | 12
+Sales | Account Manager | 50
+Sales | Sales Manager | 49
+Sales | Sales Representative | 45
+Support | Support Agent | 40
+Support | Support Lead | 29
+Support | Support Specialist | 43

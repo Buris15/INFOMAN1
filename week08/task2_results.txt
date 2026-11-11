@@ -1,0 +1,5 @@
+TASK 2 — BASIC AGGREGATION RESULTS
+total_employees | employees_with_commission | employees_without_commission | monthly_payroll | average_salary | earliest_hire_date | latest_hire_date | total_compensation
+500 | 352 | 148 | 33,282,250.00 | 66,564.50 | 2015-01-03 | 2026-09-14 | 35,387,750.00
+
+Explanation: COUNT(*) counts all 500 rows, while COUNT(commission) counts only non-NULL commission values (352). The difference of 148 rows have NULL commission values. COALESCE(commission, 0) replaces those NULL values with zero so salary + commission can be calculated for every employee before SUM is applied.

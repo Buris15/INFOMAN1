@@ -1,0 +1,13 @@
+TASK 4 — HAVING RESULTS
+
+4.1 Departments with average salary greater than 75,000.00
+department | average_salary
+Finance | 79,513.04
+Engineering | 75,160.00
+
+4.2 Active departments with more than 50 employees
+department | active_headcount
+Sales | 115
+Engineering | 104
+Support | 99
+Finance | 52
