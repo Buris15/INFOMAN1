@@ -1,0 +1,35 @@
+INFOMAN1 WEEK 7 — EXPECTED QUERY RESULTS
+Based on the supplied university_db.sql sample records.
+
+TASK 1 — COMPLEX STUDENT ROSTER
+first_name | last_name | major
+Sofia      | Santos    | Computer Science
+Samuel     | Santiago  | Information Technology
+Sarah      | Sy        | Computer Science
+Daniel     | Serrano   | Information Technology
+Liza       | Soberano  | Computer Science
+
+TASK 2 — FORMATTING EMPLOYEE DATA (LIMIT 5)
+Instructor Details
+J. Smith ($55001)
+M. Santos ($62500)
+R. Johnson ($49000)
+A. Reyes ($71250)
+P. Cruz ($47001)
+
+TASK 3 — PROJECT DEADLINE ANALYSIS
+assignment_name       | Days_To_Complete
+Capstone Proposal     | 44
+Midterm Lab Report    | 25
+Normalization Case    | 21
+SQL Basics Worksheet  | 20
+
+TASK 4 — COMPREHENSIVE DATA AUDIT
+course_code | course_name                  | credits
+CS-ADV305   | Advanced Algorithms           | 4
+CS-ADV400   | Advanced Capstone Project     | 6
+CS-ADV101   | Advanced Database Systems     | 5
+IT-ADV210   | Advanced Networking           | 3
+ENG-ADV110  | Advanced Technical Writing    | 2
+IT-ADV150   | Advanced Web Development      | 6
+
