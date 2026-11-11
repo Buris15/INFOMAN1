@@ -1,0 +1,39 @@
+Task 4(a) — August report with INNER JOIN (4 rows)
+--------------------------------------------------
+Row count: 4
+buyer | order_id | order_date | item_name | quantity | line_total
+------------------------------------------------------------
+Dan Reyes | 103 | 2026-08-16 | Siomai Rice | 1 | 65.00
+Ana Cruz | 102 | 2026-08-15 | Burger Steak | 1 | 89.00
+Ana Cruz | 101 | 2026-08-10 | Iced Tea | 1 | 30.00
+Ana Cruz | 101 | 2026-08-10 | Siomai Rice | 2 | 130.00
+
+Task 4(b) — LEFT JOIN then WHERE (4 rows; non-buyers removed)
+-------------------------------------------------------------
+Row count: 4
+buyer | order_id | order_date | item_name | quantity | line_total
+------------------------------------------------------------
+Dan Reyes | 103 | 2026-08-16 | Siomai Rice | 1 | 65.00
+Ana Cruz | 102 | 2026-08-15 | Burger Steak | 1 | 89.00
+Ana Cruz | 101 | 2026-08-10 | Iced Tea | 1 | 30.00
+Ana Cruz | 101 | 2026-08-10 | Siomai Rice | 2 | 130.00
+
+Task 4(c) — Correct LEFT JOIN with date in ON (6 rows)
+------------------------------------------------------
+Row count: 6
+buyer | order_id | order_date | item_name | quantity | line_total
+------------------------------------------------------------
+Dan Reyes | 103 | 2026-08-16 | Siomai Rice | 1 | 65.00
+Ana Cruz | 102 | 2026-08-15 | Burger Steak | 1 | 89.00
+Ana Cruz | 101 | 2026-08-10 | Iced Tea | 1 | 30.00
+Ana Cruz | 101 | 2026-08-10 | Siomai Rice | 2 | 130.00
+Ben Lim | NULL | NULL | NULL | NULL | NULL
+Cara Yu | NULL | NULL | NULL | NULL | NULL
+
+Task 4 diagnostic row counts
+-------------------------------
+Student LEFT JOIN orders before WHERE: 5
+Student LEFT JOIN orders after WHERE date condition: 3
+Full four-table LEFT JOIN before WHERE: 6
+Filtered full LEFT JOIN report (with WHERE date): 4 line-item rows
+Corrected full LEFT JOIN (date condition in ON): 6 rows (4 item rows + Ben and Cara with NULL order/item columns)

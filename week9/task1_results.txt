@@ -1,0 +1,8 @@
+Task 1 — INNER JOIN (3 rows)
+----------------------------
+Row count: 3
+student_name | program | order_id | order_date
+------------------------------------------------------------
+Ana Cruz | BSIT | 101 | 2026-08-10
+Ana Cruz | BSIT | 102 | 2026-08-15
+Dan Reyes | BSIT | 103 | 2026-08-16

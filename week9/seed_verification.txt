@@ -1,0 +1,6 @@
+Dataset verification from the supplied seed data
+===============================================
+Total students: 4
+Total orders: 3
+Total menu items: 3
+Total order_items rows: 4

@@ -1,0 +1,18 @@
+Task 2(a) — LEFT JOIN all students (5 rows)
+-------------------------------------------
+Row count: 5
+student_id | student_name | program | order_id | order_date
+------------------------------------------------------------
+1 | Ana Cruz | BSIT | 101 | 2026-08-10
+1 | Ana Cruz | BSIT | 102 | 2026-08-15
+2 | Ben Lim | BSCS | NULL | NULL
+3 | Cara Yu | BSIS | NULL | NULL
+4 | Dan Reyes | BSIT | 103 | 2026-08-16
+
+Task 2(b) — Students without orders (2 rows)
+--------------------------------------------
+Row count: 2
+student_id | student_name | program
+------------------------------------------------------------
+2 | Ben Lim | BSCS
+3 | Cara Yu | BSIS
